@@ -1,0 +1,40 @@
+.post-card {
+    border: 1px solid #1f1f1f;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.post-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.post-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .post-card {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .post-card {
+        width: calc(50% - 3rem);
+        display: inline-block;
+    }
+
+    .post-card:nth-child(2n - 1) {
+        margin-right: 0.5rem;
+    }
+
+    .post-card:nth-child(2n - 2) {
+        margin-left: 0.5rem;
+    }
+}

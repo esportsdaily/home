@@ -1,0 +1,13 @@
+[
+  {
+    "id": "crutchcorn",
+    "name": "Corbin Crutchley",
+    "firstName": "Corbin",
+    "lastName": "Crutchley",
+    "profilePic": "./crutchcorn.png",
+    "socials": {
+      "twitter": "crutchcorn",
+      "website": "https://crutchcorn.dev"
+    }
+  }
+]

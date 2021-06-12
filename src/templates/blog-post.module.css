@@ -1,0 +1,19 @@
+.parentContainer {
+    max-width: 700px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.authorNameAndDate {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.authorName {
+    flex-grow: 1;
+}
